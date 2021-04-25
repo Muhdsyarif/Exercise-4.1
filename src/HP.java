@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class HP extends Printer {
+public class HP extends Printer {	// Subclass
 	
 	Scanner s = new Scanner(System.in);
 	
@@ -7,7 +7,7 @@ public class HP extends Printer {
 	private double input_tray, speed, price, quantity, total_price;
 	
 	
-	
+	// Constructor
 	HP(){
 		this.brand = "------HP------";
 		System.out.print("Enter type of printer(Inkjet/Laser): ");
