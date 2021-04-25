@@ -3,7 +3,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		HP a = new HP();   
+		HP a = new HP();   // Construct an object HP 
 		System.out.println("Width: " + a.getWidth() + "cm");
 		System.out.println("Height: " + a.getHeight() + "cm");
 		System.out.println("Weight: " + a.getWeight() + "kg");
@@ -19,7 +19,7 @@ public class Main {
 		
 		System.out.println("------------------------------------");
 
-		Canon b = new Canon();  
+		Canon b = new Canon();  // Construct an object Canon
 		System.out.println("Width: " + b.getWidth() + "cm");
 		System.out.println("Height: " + b.getHeight() + "cm");
 		System.out.println("Weight: " + b.getWeight() + "kg");
