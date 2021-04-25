@@ -5,7 +5,7 @@ public class Printer {		// Parent Class
 	
 	private double width, height, weight;
 	
-	// Constructor
+	// Constructor without arg
 	Printer(){
 		System.out.print("Please enter the width of printer: ");
 		this.width = s.nextDouble();
