@@ -1,12 +1,12 @@
 import java.util.Scanner;
-public class Canon extends Printer {		// Subclass							
+public class Canon extends Printer {		// Canon as subclass, Printer as Parent class							
 
 Scanner s = new Scanner(System.in);
 	
 	private String brand, type, colour, onoff;
 	private double input_tray, speed, price, quantity, total_price;
 	
-	// Constructor
+	// Constructor without arg
 	Canon(){
 		this.brand = "------Canon Pixma------";
 		System.out.print("Enter type of printer(Inkjet/Laser): ");
