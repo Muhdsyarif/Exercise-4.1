@@ -1,11 +1,11 @@
 import java.util.Scanner;
-public class Printer {
+public class Printer {		// Parent Class
 	
 	Scanner s = new Scanner(System.in);
 	
 	private double width, height, weight;
 	
-	
+	// Constructor
 	Printer(){
 		System.out.print("Please enter the width of printer: ");
 		this.width = s.nextDouble();
